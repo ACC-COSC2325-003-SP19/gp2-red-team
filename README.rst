@@ -9,6 +9,7 @@ Project
 
 
 config.h
+
 ..  code-block:: c
 
 	#include <avr/io.h>
@@ -33,6 +34,7 @@ config.h
 	#define _(s)    _SFR_IO_ADDR(s)
 
 main.S
+
 ..  code-block:: text
 
 	#include "config.h"
@@ -91,6 +93,7 @@ main.S
 
 
 ledcontrol.S
+
 ..  code-block:: text
 
 	#include "config.h"
@@ -128,6 +131,7 @@ ledcontrol.S
 
 
 infrared.S
+
 ..  code-block:: text
 
 	#include "config.h"
@@ -153,6 +157,7 @@ infrared.S
 
 
 sonic.S
+
 ..  code-block:: text
 
 	#include "config.h"
@@ -198,6 +203,7 @@ sonic.S
 
 
 delay.S
+
 ..  code-block:: text
 
 	#include "config.h"
