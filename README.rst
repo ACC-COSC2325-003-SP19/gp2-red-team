@@ -22,7 +22,7 @@ Ultrasonic Range Sensor HC-SR04
     - Input Voltage Range (DC): 5v
     - Output Voltage: High 3.3V / Low 0V
     - Trigger Frequency: 40,000Hz
-	- Minimum Trigger Time: 10uS
+    - Minimum Trigger Time: 10uS
     - Operating angle: <15 degrees
     - Induction distance: 2-500cm
 
