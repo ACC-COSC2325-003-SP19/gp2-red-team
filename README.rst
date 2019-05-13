@@ -4,9 +4,66 @@ Group Project 2
 :Group Members: Ryan Govreau
 
 Project
-=======
+*******
 ..  image:: /gp2-red-team/images/project.jpg
 
+
+Hardware
+********
+
+Ultrasonic Range Sensor HC-SR04
+===============================
+
+**Chosen Device Description:**
+
+- Source: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+
+- Basic Features:
+    - Input Voltage Range (DC): 5v
+    - Output Voltage: High 3.3V / Low 0V
+    - Trigger Frequency: 40,000Hz
+	- Minimum Trigger Time: 10uS
+    - Operating angle: <15 degrees
+    - Induction distance: 2-500cm
+
+
+**Controlling the device:**
+
+- Required input/output signals:
+
+
+Passive Infrared Sensor HC-SR505
+================================
+
+**Chosen Device Description:**
+
+- Source: https://www.elecrow.com/wiki/index.php?title=HC-SR505_Mini_PIR_Motion_Sensor
+
+- Basic Features:
+    - Input Voltage Range (DC): 4.5-20V
+    - Output Voltage: High 3.3V / Low 0V
+    - Trigger: repeatable
+    - Delay time: 8 seconds + -30%
+    - Induction angle: <100 degree cone angle
+    - Induction distance: 3 meters
+
+
+**Controlling the device:**
+
+- Required input/output signals:
+
+
+Device Demonstration
+********************
+
+When the passive infrared sensor is tripped, it turns on an LED to indicate that it is on and it also turns on the ultrasonic sensor.
+
+When the unltrasonic sensor is turned on, it sends out a pulse and receivces it back. The feedback is then sent to a buzzer to indicate a relative distance based on the pitch. The higher the pitch, the closer the waves are bouncing off.
+
+Once the infrared sensor stops senseing movement (it usually takes 5-11 seconds after the last movement to stop) all of devices turn off again.
+
+Code
+****
 
 config.h
 
