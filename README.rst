@@ -5,7 +5,7 @@ Group Project 2
 
 Project
 *******
-..  image:: /gp2-red-team/images/project.jpg
+..  image:: /images/project.jpg
 
 
 Hardware
