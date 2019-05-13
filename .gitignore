@@ -1,0 +1,25 @@
+#vim
+*~
+~.swp
+
+#c/c++
+*.o
+*.a
+
+#python
+--pycache--
+*.py[cod]
+*.pyc
+
+#dolphin file manager
+.directory
+
+#add name of executable file
+demo
+testapp
+
+#valgrind file
+vgcore.*
+
+*.hex
+*.lst
