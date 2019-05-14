@@ -26,6 +26,7 @@ Ultrasonic Range Sensor HC-SR04
 
 
 **Controlling the device:**
+
 - Required input/output signals:
     - Output signal from Trigger pin sends a "high" signal when the device is triggered for a program specified time (minimum of 10uS is required).
     - Input signal from Echo pin sends a "high" signal when the echo of a sonar trigger is detected
@@ -45,6 +46,7 @@ Passive Infrared Sensor HC-SR505
 
 
 **Controlling the device:**
+
 - Required input/output signals:
     - Output signal from middle pin sends a "high" signal when the device is triggered
 
