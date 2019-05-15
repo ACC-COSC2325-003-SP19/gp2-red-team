@@ -56,7 +56,7 @@ Device Demonstration
 
 When the passive infrared sensor is tripped, it turns on an LED to indicate that it is on and it also turns on the ultrasonic sensor.
 
-When the unltrasonic sensor is turned on, it sends out a pulse and receivces it back. The feedback is then sent to a buzzer to indicate a relative distance based on the pitch. The higher the pitch, the closer the waves are bouncing off.
+When the unltrasonic sensor is turned on, it sends out a pulse and receivces it back. The feedback is then sent to an LED to indicate a relative distance based on the light intensity. The brighter and more sustained the light, the closer the waves are bouncing off an object.
 
 Once the infrared sensor stops senseing movement (it usually takes 5-11 seconds after the last movement to stop) all of devices turn off again.
 
