@@ -9,13 +9,13 @@
 	
 sonic:
         rcall     sonic_on
-		rcall     delay100
+		rcall     delay10
 		rcall     sonic_off
-		rcall     delay100
-		rcall     delay100
-		rcall     delay100
-		rcall     delay100
-		rcall     delay100
+		rcall     delay10
+		rcall     delay10
+		rcall     delay10
+		rcall     delay10
+		rcall     delay10
 		rcall     ECHO
 	    ret
 		
